@@ -1,8 +1,8 @@
 :root {
-    --mp-blue: #009ee3;
+    --mp-blue: #0092d1;
     --mp-dark-blue: #0077b6;
     --mp-light-blue: #00a6e8;
-    --mp-green: #00a650;
+    --mp-yellow: #ffff00;
     --mp-white: #ffffff;
     --mp-gray: #f5f5f5;
     --mp-dark: #1a1a2e;
@@ -57,7 +57,7 @@ h1 {
     margin-bottom: 20px;
     color: var(--mp-white);
     font-weight: 700;
-    background: linear-gradient(90deg, var(--mp-blue), var(--mp-green));
+    background: linear-gradient(90deg, var(--mp-blue), var(--mp-yellow));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -75,7 +75,7 @@ h1 {
     font-weight: 700;
     margin: 30px 0;
     color: var(--mp-white);
-    text-shadow: 0 0 15px rgba(0, 158, 227, 0.5);
+    text-shadow: 0 0 15px rgba(255, 251, 0, 0.814);
     position: relative;
     display: inline-block;
 }
@@ -88,7 +88,7 @@ h1 {
     transform: translateX(-50%);
     width: 50%;
     height: 3px;
-    background: linear-gradient(90deg, var(--mp-blue), var(--mp-green));
+    background: linear-gradient(90deg, var(--mp-blue), var(--mp-yellow));
     border-radius: 3px;
 }
 
@@ -103,7 +103,7 @@ h1 {
 
 .progress-bar {
     height: 100%;
-    background: linear-gradient(90deg, var(--mp-blue), var(--mp-green));
+    background: linear-gradient(90deg, var(--mp-blue), var(--mp-yellow));
     border-radius: 10px;
     transition: width 0.5s ease;
     position: relative;
