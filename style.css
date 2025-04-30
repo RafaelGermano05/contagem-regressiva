@@ -1,9 +1,9 @@
 :root {
-    --mp-blue: #d4ff00;
+    --mp-blue: #24c500;
     /* --mp-blue: #d10000; */
     --mp-dark-blue: #0077b6;
     --mp-light-blue: #00a6e8;
-    --mp-yellow: #ffff00;
+    --mp-yellow: #0dff00;
     /* --mp-yellow: #ff0000; */
     --mp-white: #ffffff;
     --mp-gray: #f5f5f5;
@@ -77,7 +77,7 @@ h1 {
     font-weight: 700;
     margin: 30px 0;
     color: var(--mp-white);
-    text-shadow: 0 0 15px rgba(255, 251, 0, 0.814);
+    text-shadow: 0 0 15px rgba(121, 242, 0, 0.916);
     position: relative;
     display: inline-block;
 }
