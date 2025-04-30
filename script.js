@@ -1,5 +1,5 @@
 // Valor atual da contagem (pode ser atualizado)
-let currentCount = 996;
+let currentCount = 997;
 const targetCount = 1000;
 
 // Elementos DOM
