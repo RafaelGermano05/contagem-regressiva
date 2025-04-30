@@ -1,5 +1,5 @@
 // Valor atual da contagem (pode ser atualizado)
-let currentCount = 'ERROR';
+let currentCount = 988;
 const targetCount = 1000;
 
 // Elementos DOM
